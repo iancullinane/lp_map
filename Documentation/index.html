@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Daphlex - Landing Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Description">
+    <meta name="author" content="Autor">
+    <!-- loading the css -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <style type="text/css">
+        body {
+            padding-bottom: 40px;
+        }
+        
+        section {
+            padding: 60px 0 0 0;
+        }
+    </style>
+    <!--[if lt IE 9]>
+          <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <!-- Various Icons (Favicon, Touch Icon,... -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/apple-touch-icon-114x114.png">
+</head>
+
+
+
+
+
+
+
+<body data-spy="scroll" data-target=".navbar" id="top">
+    <!-- ========================= NAVIGATION BAR >> START ========================= -->
+    <div class="navbar navbar-fixed-top navbar-inverse">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+               
+                <div class="nav-collapse">
+
+                    <ul class="nav">
+                        <li>
+                            <a href="#overview">Overview</a></li>
+                        <li>
+                            <a href="#markup">Markup</a></li>
+                        <li>
+                            <a href="#styles">Styles</a></li>
+                        <li>
+                            <a href="#javascript">JavaScript</a></li>
+                        <li>
+                        <li>
+                        	<a href="#animations">Scroll Animations</a></li>
+                        	
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ========================= NAVIGATION BAR >> END ========================= -->
+    <!-- ========================= MAIN CONTAINER >> START ========================= -->
+    <div class="container">
+        <!-- ========================= SECTION: OVERVIEW >> START ========================= -->
+        <section id="overview">
+            
+                <div class="hero-unit">
+                    <h1>Daphlex - Landing Page</h1>
+                    <br/>
+                    <p class="well well-small">Thank you for purchasing our theme. If you have any questions that are beyond the scope of this help file, please feel free to send us an email to <a href="mailto:hello@unzathemes.com">hello@unzathemes.com</a> Thanks so much!</p>
+                    <div class="row-fluid">
+                        <div class="span3"><a href="mailto:hello@unzathemes.com" class="btn btn-primary btn-large btn-block">Item Support</a></div>
+                        <div class="span3"><a href="#changelog" role="button" class="btn btn-success btn-large btn-block" data-toggle="modal">Changelog</a></div>
+                        
+                    </div>
+    
+                </div>
+                
+                <hr>
+                
+                <div class="row-fluid">
+                    <div class="span3">
+                        <table width="100%">
+                            <tr>
+                                <td>Author:</td>
+                                <td>Unza Themes</td>
+                            </tr>
+                            <tr>
+                                <td>Contact:</td>
+                                <td><a href="mailto:hello@unzathemes.com">hello@unzathemes.me</a></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="span3">
+                        <table width="100%">
+                            <tr>
+                                <td>Author URL:</td>
+                                <td><a href="http://www.unzathemes.com">www.unzathemes.com</a></td>
+                            </tr>
+                            <tr>
+                                <td>Item URL:</td>
+                                <td><a href="http://themeforest.net/user/UnzaThemes/portfolio">themeforest.net</a></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="span3">
+                        <table width="100%">
+                            <tr>
+                                <td>Current Version:</td>
+                                <td>1.0.0</td>
+                            </tr>
+                            <tr>
+                                <td>Documentation Version</td>
+                                <td>1.0.0</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="span3">
+                        <table width="100%">
+                            <tr>
+                                <td>Created:</td>
+                                <td>2013-05-02</td>
+                            </tr>
+                            <tr>
+                                <td>Modified:</td>
+                                <td>2013-05-25</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                
+                <hr>
+                
+            </section>
+        <!-- ========================= SECTION: OVERVIEW >> END ========================= -->
+        <!-- ========================= SECTION: MARKUP >> START ========================= -->
+        <section id="markup">
+                <div class="page-header">
+                    <h1>Markup <small>Markup customization and highlights</small></h1>
+                </div>
+            
+                <p>This theme is a responsive layout. All of the website content is inside div with "container" and "page-content" classes but home page that it's inside 100% wide divs with class: "homepage-section"</p>
+            
+                <hr />
+            
+                <div class="row">
+                    <div class="span3">
+                        <h3>Head Markup</h3>
+                        <p>All the Style Sheets are being called on head section.<br /><br />
+                        <b>Bootstrap.css</b> and <b>Bootstrap-responsive.css</b> are the structure CSS Files, they are responsible for all the Twitter Bootstrap functionalities. And <b>style.css</b> contains all the styles for Daphlex Landing.
+                        </p>
+                    </div>
+            
+                    <div class="span9"> 
+
+<!-- Code Block >> Start -->                   
+<pre class="prettyprint linenums">
+    
+	&lt;head&gt;
+		&lt;meta charset="utf-8"&gt;
+		&lt;title>Daphlex - Freebies Website&lt;/title&gt;
+		&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+		&lt;meta name="description" content=""&gt;
+		&lt;meta name="author" content=""&gt;
+		
+		&lt;<!-- Styles -->&gt;
+		&lt;link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'&gt;
+		&lt;link href="assets/css/bootstrap.css" rel="stylesheet"&gt;
+		&lt;link href="assets/css/style.css" rel="stylesheet"&gt;
+		&lt;link href="assets/css/bootstrap-responsive.css" rel="stylesheet"&gt;
+		&lt;link href="assets/css/animate.css" rel="stylesheet"&gt;
+		
+		&lt;!-- HTML5 shim, for IE6-8 support of HTML5 elements --&gt;
+		&lt;!--[if lt IE 9]&gt;
+		script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script&gt;
+		<![endif]-->
+	&lt;/head&gt;
+
+</pre>
+
+
+<!-- Code Block >> End -->                   
+
+                    </div>
+                </div>
+            
+                <hr />
+            
+                <div class="row">
+                    <div class="span3">
+                        <h3>Javascript Files</h3>
+                        <p>All the Javascript files are placed at the end of the document so the pages load faster.<br /><br />
+                        
+                        Here you have all the <b>Twitter Bootstrap</b> functions (To reduce Page Load you can remove one by one considering if you will need it on the page or not), then you have <b>Global.js</b> that store all the
+                        costum Functions to Daphlex Landing we'll back to this topic further on this document.</p>
+                    </div>
+                
+                    <div class="span9">
+
+<!-- Code Block >> Start -->                   
+<pre class="prettyprint linenums">
+        &lt;script src="assets/js/jquery.js">&lt;/script&gt;
+        &lt;script src="assets/js/bootstrap-transition.js">&lt;/script&gt;
+        &lt;script src="assets/js/bootstrap-alert.js">&lt;/script&gt;
+        &lt;script src="assets/js/bootstrap-modal.js">&lt;/script&gt;
+        &lt;script src="assets/js/bootstrap-dropdown.js">&lt;/script&gt;
+        &lt;script src="assets/js/bootstrap-scrollspy.js">&lt;/script&gt;
+        &lt;script src="assets/js/bootstrap-tab.js">&lt;/script&gt;
+        &lt;script src="assets/js/bootstrap-tooltip.js">&lt;/script&gt;
+        &lt;script src="assets/js/bootstrap-popover.js">&lt;/script&gt;
+        &lt;script src="assets/js/bootstrap-button.js">&lt;/script&gt;
+        &lt;script src="assets/js/bootstrap-collapse.js">&lt;/script&gt;
+        &lt;script src="assets/js/bootstrap-carousel.js">&lt;/script&gt;
+        &lt;script src="assets/js/bootstrap-typeahead.js">&lt;/script&gt;
+        &lt;script src="assets/js/jquery.mixitup.js">&lt;/script&gt;
+        &lt;script src="assets/js/global.js">&lt;/script&gt;
+        &lt;script src="assets/js/waypoints.js">&lt;/script&gt;
+        &lt;script&gt;
+            $(document).ready(function () {
+                $('.actooltip').tooltip();
+                $('.grid').mixitup();
+                singlePage();
+                LandingAnimations();
+            });
+        &lt;/script&gt;
+
+</pre>
+<!-- Code Block >> End -->                   
+
+                    </div>
+                </div>
+            
+                <hr />
+            
+           
+            </section>
+        <!-- ========================= SECTION: MARKUP >> END ========================= -->
+        <!-- ========================= SECTION: STYLES >> START ========================= -->
+        <section id="styles">
+                <div class="page-header">
+                    <h1>Styles <small>Styles customization and highlights</small></h1>
+                </div>
+            
+            
+                <div class="row">
+                    <div class="span3">
+                        <h3>Stylesheets</h3>
+                        <p>Here's a list of the stylesheet files I'm using with this template, you can find more information opening each file:
+                        <br /><br />If you need some kind of help editing these files, you can contact us trough our Support System in <a href="http://unzathemes.ticksy.com/">here</a>
+                        </p>
+                    </div>
+                    <div class="span9">
+                        <table class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th>File Name</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><code>bootstrap.css</code></td>
+                                    <td>Contains some general styling, such as anchor tag colors, font-sizes, etc And all the styles for Bootstrap components.</td>
+                                </tr>
+                                <tr>
+                                    <td><code>bootstrap-responsive.css</code></td>
+                                    <td>Contains all the media-queries (responsive functionalities) for Bootstrap</td>
+                                </tr>
+                                <tr>
+                                    <td><code>style.css</code></td>
+                                    <td>Contains all the Daphlex Landing styles.</td>
+                                </tr>
+                                <tr>
+                                    <td><code>animate.css</code></td>
+                                    <td>Contains all the CSS3 animations</b></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+                <hr />
+                
+                <div class="row">
+                    <div class="span3">
+                        <h3>Style.css Structure</h3>
+                        <p>The Main CSS file, and responsible for almost the design on this template is style.css. This file contains all of the specific stylings. The file is separated into sections using a Table of Contents</p>
+                    </div>
+                
+                    <div class="span9">
+                    
+<!-- Code Block >> Start -->                   
+<pre class="pre-scrollable prettyprint linenums">
+/* --	
+Table of Contents
+--
+01 - Global
+02 - Home
+03 - Premium
+04 - Freebies
+05 - Pricing
+06 - About
+07 - Blog
+08 - Coming
+09 - Landing
+10 - Contact
+-- </pre>
+<!-- Code Block >> End -->                   
+
+                    </div>
+                </div>
+                
+            </section>
+        <!-- ========================= SECTION: STYLES >> END ========================= -->
+        <!-- ========================= SECTION: JAVASCRIPT >> START ========================= -->
+        <section id="javascript">
+            
+                <div class="page-header">
+                    <h1>JavaScript <small>JavaScript customization and highlights</small></h1>
+                </div>
+                
+                <div class="row">
+                    <div class="span3">
+                        <h3>JavaScript Files</h3>
+                        <p>Since there are a 15 Javascript files from Bootstrap Framework and since we do not need them all the time in this Theme, we'll 
+                        just describe the costum JS Files for this theme. <br /><br /> If you think you'll need a specific JS file in a specific page you can add it in the bottom of the page.</p>
+                    </div>
+                    <div class="span9">
+                        <table class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Tag</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><code>jquery.js</code></td>
+                                    <td>jQuery is a Javascript library that greatly reduces the amount of code that you must write.</td>
+                                </tr>
+                                <tr>
+                                    <td><code>global.js</code></td>
+                                    <td>Most of the animation and interaction in the browser are definined in this file. There are some specific functions for Daphlex Landing.</td>
+                                </tr>
+                                <tr>
+                                    <td><code>waypoint.js</code></td>
+                                    <td>Plugin to track scroll position relative to the elements</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+                <hr />
+                
+             
+                
+            </section>
+        <section id="animations">
+            
+                <div class="page-header">
+                    <h1>Scroll Animations</h1>
+                </div>
+                
+                 <div class="row">
+                    <div class="span3">
+                        <h3>Initialize</h3>
+                        <p>To enable or disable element's animations on scroll you just need to initialize LandingAnimation function</p>
+                    </div>
+                
+                    <div class="span9">
+                    
+<!-- Code Block >> Start -->                   
+<pre class="pre-scrollable prettyprint linenums">
+LandingAnimations();
+</pre>
+<!-- Code Block >> End -->                   
+
+                    </div>
+              </div>
+              
+                   <div class="row">
+                    <div class="span3">
+                        <h3>Animate.css</h3>
+                        <p>This is the file that stores all the CSS Effects.</p>
+                    </div>
+                
+                    <div class="span9">
+                    
+<!-- Code Block >> Start -->                   
+<pre class="pre-scrollable prettyprint linenums">
+Example:
+	.bounce {
+	    -webkit-animation-name: bounce;
+	    -moz-animation-name: bounce;
+	    -o-animation-name: bounce;
+	    animation-name: bounce;
+	}
+	
+	
+	@-o-keyframes bounceIn {
+	    0%;
+	
+	{
+	    opacity: 0;
+	    -o-transform: scale(.3);
+	}
+	
+	50% {
+	    opacity: 1;
+	    -o-transform: scale(1.05);
+	}
+	
+	70% {
+	    -o-transform: scale(.9);
+	}
+	
+	100% {
+	    -o-transform: scale(1);
+	}
+	
+	}
+	
+</pre>
+<!-- Code Block >> End -->                   
+
+</div>
+</div>
+          
+
+               
+                <hr />
+                
+             
+                
+            </section>
+        <footer>
+                <p>&copy; <a href="http://www.unzathemes.com">Unzathemes.com</a> 2013</p>
+            </footer>
+    </div>
+    <!-- ========================= MAIN CONTAINER >> END ========================= -->
+    <!-- CHANGELOG >> START -->
+    <div class="modal hide fade" id="changelog" tabindex="-1" role="dialog" aria-labelledby="changelog-label" aria-hidden="true">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                ×</button>
+            <h3 id="changelog-label">Changelog</h3>
+        </div>
+        <div class="modal-body">
+<pre>
+2013/08/02
++   Launch</pre>
+
+
+        </div>
+        <div class="modal-footer">
+            <button class="btn" data-dismiss="modal" aria-hidden="true">
+                Close</button>
+        </div>
+    </div>
+ 
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/google-code-prettify/prettify.js"></script>
+    <!-- init javascripts -->
+    <script src="assets/js/init.js"></script>
+</body>
+</html>
